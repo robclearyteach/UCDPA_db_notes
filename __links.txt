@@ -29,4 +29,54 @@ https://github.com/robclearyteach/UCDPA_db_notes
 		https://www.sqlite.org/download.html		#Recommend: choose: `sqlite-tools-... .zip`
 		https://sqlitestudio.pl/
 		
+
+
+		
+====================
+02
+====================
+
+	=====
+	PSQL Connect, Query Recap, and New (including IUD )
+	=====
+	https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
+
+	https://www.postgresqltutorial.com/postgresql-administration/postgresql-create-database/
+	https://www.postgresqltutorial.com/postgresql-administration/postgresql-backup-database/
+	
+	
+	https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/
+	https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-into/
+
+	https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-serial/		
+
+	# INSERT	
+		https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert/
+	# DELETE
+		#For Ref: https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/
+	# UPDATE
+		#For Ref: https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update/
+		
+	=======
+	SQLite
+	=======
+	https://www.sqlite.org/download.html					#E.g. See '64-bit DLL (x64)...'
+	https://www.sqlite.org/quickstart.html
+		#For ref: https://www.sqlite.org/cli.html			#Using later in more detail
+		
+	https://sqlitestudio.pl/
+
+	##Basic setup 
+	http://cswire.blogspot.com/2017/11/sqlitestudio-tutorial-basic-database.html
+
+	##(don't forget Add Database: give filename, click Connect to DB after)
+	## @ inserts -> highlight all inserts then run
+
+	##
+	## run installer (Next* + launch)
+	## Tools --> `Open Config' dialogue` --> `Look and Feel`-->Fonts
+
+
+%%
+## find Dreamhome.sql CREATE TABLE and INSERT for Staff table
 		
