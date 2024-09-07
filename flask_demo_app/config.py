@@ -3,9 +3,9 @@ import os
 # For production: use secret key:
 # To generate:
 # python -c "import secrets;print(secrets.token_hex())"
-SECRET_KEY = os.getenv('SECRET_KEY', 'replace with generated key here')
+# SECRET_KEY = os.getenv('SECRET_KEY', 'replace with generated key here')
 
-SQLALCHEMY_DATABASE_URI = "sqlite:///project.db"
+SQLALCHEMY_DATABASE_URI = "sqlite:///sale_x.db"
 
 """
 #WAY2:

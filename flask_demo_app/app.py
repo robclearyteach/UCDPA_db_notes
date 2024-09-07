@@ -11,8 +11,41 @@ with app.app_context():
     
 @app.route("/")
 def index():
-    user_data = db.session.execute( db.select(User).order_by(User.username) ).scalars()
-    return render_template("index.html", users=user_data)  
+    users_from_db = db.session.query(User).all()
+    return render_template('index.html', users=users_from_db)
+#Welcome back...
+
+@app.route("/search_user", methods= ["POST"])
+def search_username():
+    search_term = request.form.get('search') #'aa'
+    user_found = db.session.query(User) \
+                            .filter(User.username == search_term) \
+                            .all()
+    return render_template('index.html', users=user_found)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @app.route("/user_form")
 def user_form():
